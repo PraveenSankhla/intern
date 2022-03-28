@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.initialdiv{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto 10px 60px;
+}
+
+.headin{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headin h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #d1ac7b;
+}
+
+.para{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.para p{
+    margin-top: -7%;
+    width: 10%;
+    text-align: center;
+    font-size: 8px;
+}
+
+.le{
+    margin-left: 3%;
+}
+
+.vel{
+    border-left: 1px solid grey;
+}
+
+.sidebar{
+    margin-right: 50%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.sidebar button{
+    border-radius: 50%;
+    margin: 8px 2px;
+    padding: 2px 7px;
+    background-color: transparent;
+    border-style: outset;
+}
+
+a{
+    cursor: pointer;
+}
+
+.sidebar p{
+    font-size: 10px;
+}
+
+.middlediv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middlediv h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #d1ac7b;
+}
+
+.middlediv p{
+    width: 10%;
+    text-align: center;
+    font-size: 8px;
+}
+
+
+.final{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10%;
+    justify-content: space-evenly;
+
+}
+
+.paragr{
+    margin-left: 35%;
+    margin-right: 15%;
+
+}
+
+.final p {
+    text-align: left;
+}
+
+.hello{
+    display: grid;
+    grid-template-rows: 30% 20% 30% 20%;
+}
+
+.hello h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: #d1ac7b;
+}
+
+.hello  p{
+    padding-top: 3%;
+    width: 40%;
+    text-align: center;
+    font-size: 10px;
+}
